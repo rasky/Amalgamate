@@ -131,7 +131,7 @@
   #if defined (__ppc__) || defined (__ppc64__)
 	#define JUCE_PPC 1
   #else
-	#define JUCE_INTEL 1
+	//#define JUCE_INTEL 1
   #endif
 
   #ifdef __LP64__
